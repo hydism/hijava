@@ -10,7 +10,7 @@ public class N {
 		y = temp;
 	}
 
-	// 변수 2개 사용
+	// 변수 2개 사용 --- 한글깨짐?
 //	public void swap2() {
 //		int x1 = x;
 //		int y1 = y;
