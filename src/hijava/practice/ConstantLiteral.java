@@ -6,8 +6,8 @@ public class ConstantLiteral {
 		final String s = "abc" ;
 		add1(s);
 		System.out.println(s);
-//		s = "def"; // °ªÀ» ¹Ù²Ü¼ö ¾øÀ½
-//		STU_NUM = 2 ; // °ªÀ» ¹Ù²Ü ¼ö ¾øÀ½
+//		s = "def"; // ê°’ì„ ë°”ê¿€ìˆ˜ ì—†ìŒ
+//		STU_NUM = 2 ; // ê°’ì„ ë°”ê¿€ ìˆ˜ ì—†ìŒ
 	}
 	
 	public static String add1(String x) {

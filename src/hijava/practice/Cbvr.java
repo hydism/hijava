@@ -1,31 +1,31 @@
 package hijava.practice;
 
 public class Cbvr {
-		int m = 2;
-		
-	public static void main(String[] args) {
-		int i = 1;
-		System.out.println("i1=" + i);
-		
-		change1(i);
-		System.out.println("i2=" + i);
-		// Call By ValueÀÌ±â ¶§¹®¿¡ °ªÀ» º¯°æÇÏ´Â ¸Ş¼Òµå¿¡ i¸¦ ³Ö¾îµµ iÀÇ °ªÀº ÀÏ½ÃÀûÀ¸·Î º¯ÇÒ »Ó, change1ÇÔ¼ö°¡ Á¾·áµÇ¸é °ªÀº ¿ø·¡´ë·Î µ¹¾Æ¿È
-		
-		Cbvr cb1 = new Cbvr();
-		System.out.println("m1=" + cb1.m);
-		
-		change2(cb1);
-		System.out.println("m2=" + cb1.m);
-		
-		
-	}
+	int m = 2;
 	
-	public static void change1(int x) {
-		x = 100 ;
-	}
+public static void main(String[] args) {
+	int i = 1;
+	System.out.println("i1=" + i);
+	
+	change1(i);
+	System.out.println("i2=" + i);
+	// Call By Valueì´ê¸° ë•Œë¬¸ì— ê°’ì„ ë³€ê²½í•˜ëŠ” ë©”ì†Œë“œì— ië¥¼ ë„£ì–´ë„ iì˜ ê°’ì€ ì¼ì‹œì ìœ¼ë¡œ ë³€í•  ë¿, change1í•¨ìˆ˜ê°€ ì¢…ë£Œë˜ë©´ ê°’ì€ ì›ë˜ëŒ€ë¡œ ëŒì•„ì˜´
+	
+	Cbvr cb1 = new Cbvr();
+	System.out.println("m1=" + cb1.m);
+	
+	change2(cb1);
+	System.out.println("m2=" + cb1.m);
+	
+	
+}
 
-	public static void change2(Cbvr cb) {
-		cb.m = 100 ; // »ı¼ºµÈ °´Ã¼°¡ °¡Áö°í ÀÖ´Â ÀÎÆ¼Á®º¯¼ö m¿¡ 100À» ´ëÀÔ
-	}
+public static void change1(int x) {
+	x = 100 ;
+}
+
+public static void change2(Cbvr cb) {
+	cb.m = 100 ; // ìƒì„±ëœ ê°ì²´ê°€ ê°€ì§€ê³  ìˆëŠ” ì¸í‹°ì ¸ë³€ìˆ˜ mì— 100ì„ ëŒ€ì…
+}
 
 }

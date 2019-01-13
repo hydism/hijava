@@ -10,7 +10,7 @@ public class N {
 		y = temp;
 	}
 
-	// º¯¼ö 2°³ »ç¿ë --- ÇÑ±Û±úÁü?
+	// ë³€ìˆ˜ 2ê°œì‚¬ìš©
 //	public void swap2() {
 //		int x1 = x;
 //		int y1 = y;

@@ -5,8 +5,8 @@ public class Num {
 		byte b = 1;
 		short s = 32767;
 		int i = 2147483647;
-		long l = 2147483648L; // ¹üÀ§ÀÚÃ¼´Â longÀÇ ¹üÀ§³»¿¡ ÀÖÀ¸³ª, ¼ýÀÚ´Â ±âº»ÇüÀÌ intÀÌ±â ¶§¹®¿¡ 4byte¸Þ¸ð¸®·Î ÀÎ½ÄÇØ¼­ ¿À·ù
-		                      // ¼ýÀÚµÚ¿¡ LºÙ¿©ÁÖ¸é µÊ
+		long l = 2147483648L; // ë²”ìœ„ìžì²´ëŠ” longì˜ ë²”ìœ„ë‚´ì— ìžˆìœ¼ë‚˜, ìˆ«ìžëŠ” ê¸°ë³¸í˜•ì´ intì´ê¸° ë•Œë¬¸ì— 4byteë©”ëª¨ë¦¬ë¡œ ì¸ì‹í•´ì„œ ì˜¤ë¥˜
+						      // ìˆ«ìžë’¤ì— Lë¶™ì—¬ì£¼ë©´ ë¨
 		
 		float f = 0.1f;
 		double d = 123.45;

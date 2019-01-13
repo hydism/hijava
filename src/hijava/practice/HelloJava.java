@@ -1,20 +1,20 @@
 package hijava.practice;
 
 /**
- * Ã¹¹øÂ° ÀÚ¹Ù ½Ç½À
+ * ì²«ë²ˆì§¸ ìë°” ì‹¤ìŠµ
  * 
- * @author Á¶ÀçÈ£
+ * @author ì¡°ì¬í˜¸
  * @version 0.0.1
- * @update sayÇÔ¼ö Ãß°¡(2019-01-12 by QQQ)
+ * @update sayí•¨ìˆ˜ ì¶”ê°€(2019-01-12 by QQQ)
  */
 
 public class HelloJava {
 
 	public static void main(String[] args) {
-		// HelloJava¿¡°Ô say¶ó´Â ¸í·ÉÀ» ³»¸².
+		// HelloJavaì—ê²Œ sayë¼ëŠ” ëª…ë ¹ì„ ë‚´ë¦¼.
 		HelloJava.say("Hi~1");
 
-		// JVMÀÌ ½º½º·Î È­¸é¿¡ Ãâ·Â
+		// JVMì´ ìŠ¤ìŠ¤ë¡œ í™”ë©´ì— ì¶œë ¥
 		System.out.println("Hi~2");
 
 		String msg1 = "Hi~3";
