@@ -8,5 +8,9 @@ public class Practice1 {
 		System.out.println((int)(num1 - num2));
 		System.out.println((int)(num1 * num2));
 		System.out.println((int)(num1 / num2));
+		
+		double num3 = 12.4;
+		int num4 = 3;
+		System.out.println((int)(num3 % num4));
 	}
 }
