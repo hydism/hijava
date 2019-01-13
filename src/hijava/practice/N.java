@@ -9,6 +9,14 @@ public class N {
 		x = y;
 		y = temp;
 	}
+
+	// 변수 2개 사용
+//	public void swap2() {
+//		int x1 = x;
+//		int y1 = y;
+//		x = y1;
+//		y = x1;
+//	}
 	
 	public static void main(String[] args) {
 		N n = new N();
