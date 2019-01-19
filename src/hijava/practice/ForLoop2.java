@@ -3,17 +3,19 @@ package hijava.practice;
 public class ForLoop2 {
 
 	public static void main(String[] args) {
+		int line = 5;
 		//1번
-		for(int i = 1; i <= 7; i++) {
+		for(int i = 1; i <= line; i++) {
 			for(int j = 1; j <= i; j ++) {
 				System.out.print("*");
 			}
 			System.out.println();
 		}
 		
+		
 		//2번
-		for(int i = 1; i <= 7; i++) {
-			for(int j = 7; j > i; j--)	{
+		for(int i = 1; i <= line; i++) {
+			for(int j = 1; j <= line - i; j++)	{
 				System.out.print(" ");
 			}
 			
@@ -23,21 +25,7 @@ public class ForLoop2 {
 			System.out.println();
 		}
 		
-		//3번
-		for(int i = 1; i <= 7; i++) {
-			for(int j = 7; j > i; j--)	{
-				System.out.print(" ");
-			}
-			
-			for(int k = 1; k <= i; k ++) {
-				System.out.print("*");
-			}
-			
-			for(int l = 2; l <= i; l++) {
-				System.out.print("*");
-			}
-			System.out.println();
-		}
+		
 		
 	}
 
