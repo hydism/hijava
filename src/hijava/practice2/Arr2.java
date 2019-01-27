@@ -20,12 +20,10 @@ public class Arr2 {
 		}
 		
 		for(int i = 0; i < 2; i++) {
-			if(i == 1) {
-				System.out.println();
-			}
 			for(int j = 0; j < 26; j++) {
 				System.out.print(arr[i][j] + " ");
 			}
+			System.out.println();
 		}
 	}
 }

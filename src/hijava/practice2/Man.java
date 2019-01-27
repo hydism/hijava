@@ -16,6 +16,8 @@ public class Man {
 		this.setName(name);
 	}
 	
+	
+	
 	public String getName() {
 		return inName;
 	}
